@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-*/  
+/*  
    Compilar con:
    $ nvcc example_intro.cu */
 
