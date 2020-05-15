@@ -9,7 +9,7 @@
    $ nvcc example_intro.cu */
 
 const int N = 16384;
-const int THREADS_PER_BLOCK = 32;
+const int THREADS_PER_BLOCK = 512;
 
 
 /* Ejecucion de un thread por cada bloque*/
