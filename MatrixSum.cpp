@@ -60,7 +60,7 @@ int main(void) {
   b = (int *) malloc(size);
   c = (int *) malloc(size);
 
-  /* llenando los vectores a y b de manera aleatoria
+  /* llenando los vectores a y b de manera aleatoria*/
   for (int i = 0; i < N; ++i) {
     a[i] = rand();
     b[i] = rand();
