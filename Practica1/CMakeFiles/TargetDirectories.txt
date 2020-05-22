@@ -1,0 +1,3 @@
+/home/sadrac/CURSOS-2020-I/TCG/TopicosGrafica/Practica1/CMakeFiles/rebuild_cache.dir
+/home/sadrac/CURSOS-2020-I/TCG/TopicosGrafica/Practica1/CMakeFiles/OpsImage.dir
+/home/sadrac/CURSOS-2020-I/TCG/TopicosGrafica/Practica1/CMakeFiles/edit_cache.dir
