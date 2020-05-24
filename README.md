@@ -2,13 +2,13 @@
 
 _Curso del noveno semestre de la Universidad Nacional de San Agustín_
 
-####Integrantes (Turing con hambre)
+#### Integrantes (Turing con hambre)
 
 - Andre Mogrovejo Martinez
 - Nicolas Jimenez Artiga
 - Jesus Lazo Quevedo
 
-##Contenido _(carpetas)_ 
+## Contenido _(carpetas)_ 
 
 1. Clase 1 _(Bitmap)_
 2. Clase 2 _(Multiplicación de matrices con CUDA)_
