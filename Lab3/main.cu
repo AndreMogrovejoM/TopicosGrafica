@@ -1,4 +1,5 @@
-#include "shared.cuh"
+#include "sumColsMatrix.cuh"
+#include "sumColsMatrix.hpp"
 #include <stdio.h>
 
 #define ROW 1024
@@ -24,11 +25,12 @@ int main(int argc, char** argv){
     N = ROW;
     M = COL;
   }*/
+
   N = ROW;
   M = COL;
 
 
-  int nDevices;
+  /*int nDevices;
 
   cudaGetDeviceCount(&nDevices);
   for (int i = 0; i < nDevices; i++) {
@@ -44,7 +46,7 @@ int main(int argc, char** argv){
            prop.warpSize);
     printf("  Peak Memory Bandwidth (GB/s): %f\n\n",
            2.0*prop.memoryClockRate*(prop.memoryBusWidth/8)/1.0e6);
-  }
+  }*/
 
   int *Mh;
   int *Nh;
@@ -57,7 +59,7 @@ int main(int argc, char** argv){
 
   Nh = new int[M];
 
-  sumColsMatrix(Mh,Nh,N,M);
+  sumColsMatrixGPU(Mh,Nh,M,N);
 
   for (int i = 0; i < M; ++i)
     printf("%d ",Nh[i]);
