@@ -5,7 +5,7 @@ _Curso del noveno semestre de la Universidad Nacional de San Agustín_
 #### Integrantes (Turing con hambre)
 
 - Andre Mogrovejo Martinez
-- Nicolas Jimenez Artiga
+- Nicolas Jimenez Artica
 - Jesus Lazo Quevedo
 
 ## Contenido _(carpetas)_ 
