@@ -10,6 +10,6 @@ _Curso del noveno semestre de la Universidad Nacional de San Agustín_
 
 ## Contenido _(carpetas)_ 
 
-* Clase 1 _(Bitmap)_
-* Clase 2 _(Multiplicación de matrices con CUDA)_
-* Clase 3 _(Comparación de GPU vs CPU)_
+* Lab 1 _(Bitmap)_
+* Lab 2 _(Multiplicación de matrices con CUDA)_
+* Lab 3 _(Comparación de GPU vs CPU)_
