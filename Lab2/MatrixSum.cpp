@@ -62,8 +62,8 @@ int main(void) {
 
   /* llenando los vectores a y b de manera aleatoria*/
   for (int i = 0; i < N; ++i) {
-    a[i] = rand();
-    b[i] = rand();
+    a[i] = 1;
+    b[i] = 1;
   }
 
   /* transfiriendo data del host al device */
