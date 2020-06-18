@@ -4,8 +4,14 @@ _Curso del noveno semestre de la Universidad Nacional de San Agustín_
 
 #### Integrantes (Turing con hambre)
 
+
+
 - Andre Mogrovejo Martinez
-  * Practica 1
+  * Practica 1: 
+  GammaFunction	
+  Histograma	
+  HistogramaRGB	
+  SumaPonderada
   * Practica 2
   * Practica 3
 - Nicolas Jimenez Artica
