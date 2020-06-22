@@ -1,5 +1,27 @@
+#include "cuda_runtime.h"
+#include "cuda_runtime_api.h"
+#include "device_launch_parameters.h"
 #include <iostream>  
 #include <fstream>   
+#include <iomanip>   
+#include <windows.h>
+#include <io.h>                  
+#include <stdio.h>
+#include<conio.h>
+#include <cstdlib>
+#include "cstdlib"
+#include <process.h>
+#include <stdlib.h>
+#include <malloc.h>
+#include <ctime>
+
+//for __syncthreads()
+#ifndef __CUDACC__ 
+#define __CUDACC__
+#endif
+#include <device_functions.h>
+
+using namespace std;
 
 using namespace std;
 
@@ -100,7 +122,7 @@ int main()
     // Copiando la data del host al device
     gpuErrchk(cudaMemcpy(Img_entrada, Img_entrada_host, img_long, cudaMemcpyHostToDevice));// copying Host Data To Device Memory For Filtering
 
-    // Calculo de tamaño grids y blocks
+    // Calculo de tamaÃ±o grids y blocks
     const dim3 grid(Div_entre_cero(Img_w, BLOCK_WIDTH), Div_entre_cero(Img_h, BLOCK_HEIGHT), 1);
     const dim3 block(BLOCK_WIDTH, BLOCK_HEIGHT, 1);
 
@@ -117,11 +139,11 @@ int main()
     gpuErrchk(cudaPeekAtLastError());
     gpuErrchk(cudaDeviceSynchronize());
 
-    //Imprimir tiempos de ejecución en ms
+    //Imprimir tiempos de ejecuciÃ³n en ms
     cudaEventRecord(stop, 0);
     cudaEventSynchronize(stop);
     cudaEventElapsedTime(&time, start, stop);
-    printf("Ejecución completa - time:  %3.3f ms \n", time);
+    printf("EjecuciÃ³n completa - time:  %3.3f ms \n", time);
 
     //Moviendo resultados del device al host
     gpuErrchk(cudaMemcpy(Img_salida_host, Img_salida, img_long, cudaMemcpyDeviceToHost));
