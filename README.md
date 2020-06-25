@@ -7,18 +7,20 @@ _Curso del noveno semestre de la Universidad Nacional de San Agustín_
 
 
 - Andre Mogrovejo Martinez
-  * Practica 1: 
-  GammaFunction	
-  Histograma	
-  HistogramaRGB	
-  SumaPonderada
+  * Practica 1: GammaFunction	Histograma	HistogramaRGB	  SumaPonderada
   * Practica 2
   * Practica 3
+  * Practica 4
 - Nicolas Jimenez Artica
   * Practica 1: GammaFunction Histograma HistogramaRGB SumaPonderada
   * Practica 2
   * Practica 3
+  * Practica 4
 - Jesus Lazo Quevedo
+  * Practica 1
+  * Practica 2
+  * Practica 3
+  * Practica 4
 
 ## Contenido _(carpetas)_ 
 
