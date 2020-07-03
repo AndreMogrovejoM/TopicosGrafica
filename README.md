@@ -28,3 +28,5 @@ _Curso del noveno semestre de la Universidad Nacional de San Agustín_
 * Lab 2 _(Multiplicación de matrices con CUDA)_
 * Lab 3 _(Suma de columnas usando memoria compartida en GPU)_
 * Lab 4 _(Ejercicios de operaciones globales en imágenes usando GPU)_
+* Lab 5 _Filtro convolucional 2d y compuesto_
+* Lab 6 _Filtro Afin_
